@@ -1,0 +1,984 @@
+.head-top {
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Roboto&family=Young+Serif&display=swap");
+  width: 100%;
+  background-image: url(../img/herder-bg.jpg);
+  background-size: cover;
+  position: relative;
+}
+.head-top::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: rgb(255, 255, 4);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.head-top > .row > * {
+  width: 100%;
+  padding: 10px 50px;
+}
+.head-top > .row > header .row {
+  height: 100px;
+}
+.head-top > .row > header .row > figure {
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+.head-top > .row > header .row > figure > img {
+  width: 70%;
+}
+.head-top > .row > header .row > nav {
+  width: 50%;
+}
+.head-top > .row > header .row > nav > .row {
+  justify-content: space-evenly;
+  align-items: center;
+}
+.head-top > .row > header .row > nav > .row > li {
+  position: relative;
+}
+.head-top > .row > header .row > nav > .row > li:hover > ul {
+  visibility: visible;
+  opacity: 1;
+  top: 80px;
+}
+.head-top > .row > header .row > nav > .row > li > ul {
+  border: 1px solid rgb(121, 120, 120);
+  background-color: #383737;
+  width: 900%;
+  position: absolute;
+  top: 150px;
+  left: 0;
+  display: flex;
+  padding: 20px 30px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+.head-top > .row > header .row > nav > .row > li > ul > li {
+  width: 50%;
+  margin: 0 10px;
+}
+.head-top > .row > header .row > nav > .row > li > ul > li > a {
+  width: 100%;
+  display: flex;
+}
+.head-top > .row > header .row > nav > .row > li > ul > li > a > img {
+  width: 100%;
+}
+.head-top > .row > header .row > nav > .row > li > ul > li > h2 {
+  border-bottom: 1px solid #918f8f;
+  color: white;
+}
+.head-top > .row > header .row > nav > .row > li > a {
+  padding: 10px 15px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: white;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+.head-top > .row > header .row > nav > .row > li > a:hover::after {
+  width: 100%;
+}
+.head-top > .row > header .row > nav > .row > li > a::after {
+  transition: 0.4s;
+  content: "";
+  width: 0%;
+  height: 1px;
+  background-color: #facc33;
+  display: flex;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.head-top > .row > header .row > div {
+  width: 25%;
+}
+.head-top > .row > header .row > div > .row {
+  align-items: center;
+  margin-left: 30px;
+  justify-content: end;
+}
+.head-top > .row > header .row > div > .row > li {
+  transition: 0.4s;
+  margin: 0 10px;
+}
+.head-top > .row > header .row > div > .row > li:hover {
+  transform: rotateY(180deg);
+}
+.head-top > .row > header .row > div > .row > li > i {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+/****page1****/
+.page1 {
+  min-height: 500px;
+  background-image: url(../img/slider-01-1920x900\ \(2\).jpg);
+  background-size: cover;
+}
+.page1 > .row {
+  width: 50%;
+}
+.page1 > .row > * {
+  padding: 20px 50px;
+}
+.page1 > .row > .row {
+  margin: 100px;
+}
+.page1 > .row > .row > h1 {
+  color: white;
+  font-size: 40px;
+}
+.page1 > .row > .row > p {
+  color: white;
+  text-align: start;
+  margin-top: 20px;
+  line-height: 28px;
+  font-family: "Montserrat", sans-serif;
+}
+.page1 > .row > .row > span {
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: #facc33;
+  border-radius: 10px 0px 10px 0px;
+  cursor: pointer;
+  position: relative;
+}
+.page1 > .row > .row > span:hover::after {
+  height: 100%;
+  opacity: 1;
+}
+.page1 > .row > .row > span::after {
+  content: "shop new";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 0.4s;
+  opacity: 0;
+  border-radius: 10px 0px 10px 0px;
+}
+
+/***page2*/
+.page2 {
+  min-height: 350px;
+  background-image: url(../img/background.jpg);
+}
+.page2 > .row {
+  width: 100%;
+  padding: 50px 50px;
+  transition: 0.4s;
+  justify-content: space-evenly;
+}
+.page2 > .row > * {
+  padding: 20px 20px;
+  border: 1px solid white;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.page2 > .row > div {
+  display: flex;
+  justify-content: center;
+  transition: 0.4s;
+}
+.page2 > .row > div:hover {
+  border: 1px solid #facc33;
+}
+.page2 > .row > div:hover i {
+  color: #facc33;
+}
+.page2 > .row > div:hover h2 {
+  color: #facc33;
+}
+.page2 > .row > div:hover > h2 > i {
+  color: #facc33;
+  transform: rotateY(180deg);
+}
+.page2 > .row > div > div > i {
+  font-size: 60px;
+  color: white;
+  margin-right: 20px;
+  border-right: 1px solid rgb(104, 101, 101);
+  padding: 0 20px;
+}
+.page2 > .row > div > article h2 {
+  font-size: 22px;
+  line-height: 40px;
+  color: white;
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+.page2 > .row > div > article > div > span {
+  text-transform: capitalize;
+  font-size: 14px;
+  color: white;
+}
+
+.page3 {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(../img/background.jpg);
+}
+.page3 > .row {
+  width: 100%;
+  justify-content: center;
+}
+.page3 > .row > div:first-of-type > * {
+  color: white;
+}
+.page3 > .row > div:first-of-type h1 {
+  text-transform: capitalize;
+  font-size: 50px;
+}
+.page3 > .row > div:first-of-type > ul {
+  width: 100%;
+}
+.page3 > .row > div:first-of-type > ul > li {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  position: relative;
+}
+.page3 > .row > div:first-of-type > ul > li::after {
+  content: "";
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 25px;
+  left: 130px;
+  width: 15%;
+  height: 1px;
+  background-color: #918f8f;
+}
+.page3 > .row > div:first-of-type > ul > li::before {
+  content: "";
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 25px;
+  right: 130px;
+  width: 15%;
+  height: 1px;
+  background-color: #918f8f;
+}
+.page3 > .row > div:first-of-type > ul > li > i {
+  font-size: 35px;
+}
+.page3 > .row > div:last-of-type {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.page3 > .row > div:last-of-type > .row {
+  margin: 10px 0;
+  width: 300px;
+  height: 350px;
+  cursor: pointer;
+}
+.page3 > .row > div:last-of-type > .row:hover > h2 {
+  color: #facc33;
+}
+.page3 > .row > div:last-of-type > .row > figure {
+  width: 300px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+}
+.page3 > .row > div:last-of-type > .row > figure:hover > img {
+  width: 110%;
+  height: 110%;
+}
+.page3 > .row > div:last-of-type > .row > figure > img {
+  transition: 0.4s;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+.page3 > .row > div:last-of-type > .row > h2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  text-transform: capitalize;
+  color: white;
+  font-size: 25px;
+}
+
+.gallery {
+  width: 100%;
+  min-height: 450px;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+}
+.gallery > .row {
+  width: 100%;
+  justify-content: space-evenly;
+}
+.gallery > .row > div {
+  margin: 10px 0;
+  width: 600px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #918f8f;
+}
+.gallery > .row > div:hover {
+  border: 2px solid #facc33;
+}
+.gallery > .row > div > figure:hover > img {
+  width: 102%;
+  height: 102%;
+}
+.gallery > .row > div > figure > img {
+  transition: 0.4s;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 5px 5px 5px 5px;
+}
+.gallery > .row > div > figure > div {
+  padding: 40px;
+  position: absolute;
+  top: 180px;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.gallery > .row > div > figure > div > * {
+  display: flex;
+}
+.gallery > .row > div > figure > div > h2 {
+  color: white;
+  justify-content: center;
+  font-size: 35px;
+}
+.gallery > .row > div > figure > div > span {
+  justify-content: center;
+  margin-top: 10px;
+  background-color: #facc33;
+  padding: 15px 30px;
+  border-radius: 10px 0 10px 0;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.gallery > .row > div > figure > div > span:hover {
+  background-color: white;
+}
+
+.page5 {
+  min-height: 200px;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+}
+.page5 > .row {
+  width: 100%;
+  justify-content: center;
+}
+.page5 > .row > div:first-of-type > * {
+  color: white;
+}
+.page5 > .row > div:first-of-type > h2 {
+  font-size: 50px;
+  text-transform: capitalize;
+}
+.page5 > .row > div:first-of-type > ul {
+  width: 100%;
+}
+.page5 > .row > div:first-of-type > ul > li {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  position: relative;
+}
+.page5 > .row > div:first-of-type > ul > li::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 80px;
+  background-color: #918f8f;
+  width: 15%;
+  height: 1px;
+  display: flex;
+}
+.page5 > .row > div:first-of-type > ul > li::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  right: 80px;
+  background-color: #918f8f;
+  width: 15%;
+  height: 1px;
+  display: flex;
+}
+.page5 > .row > div:first-of-type > ul > li > i {
+  font-size: 35px;
+  position: relative;
+}
+.page5 > .row > div:last-of-type {
+  width: 100%;
+}
+.page5 > .row > div:last-of-type > .row > nav {
+  margin-top: 20px;
+  width: 100%;
+}
+.page5 > .row > div:last-of-type > .row > nav > .row {
+  width: 100%;
+  justify-content: center;
+}
+.page5 > .row > div:last-of-type > .row > nav > .row > * {
+  color: #000000;
+  margin: 0 17px;
+}
+.page5 > .row > div:last-of-type > .row > nav > .row > li {
+  padding: 15px 40px;
+  display: flex;
+  border-radius: 10px 10px;
+  background-color: white;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.4s;
+  font-family: "Young Serif", serif;
+}
+.page5 > .row > div:last-of-type > .row > nav > .row > li:hover {
+  background-color: #facc33;
+  color: #000000;
+}
+.page5 > .row > div:last-of-type > .row > nav > .row > li:nth-of-type(1) {
+  background-color: #facc33;
+}
+
+.page6 {
+  min-height: 100vh;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+}
+.page6 > .row {
+  justify-content: space-evenly;
+}
+.page6 > .row > * {
+  border: 2px solid #918f8f;
+}
+.page6 > .row > div {
+  width: 300px;
+  height: 392px;
+  margin-bottom: 100px;
+}
+.page6 > .row > div > figure {
+  position: relative;
+}
+.page6 > .row > div > figure:hover > div {
+  top: 300px;
+  opacity: 1;
+  visibility: visible;
+}
+.page6 > .row > div > figure > img {
+  width: 100%;
+  height: 100%;
+}
+.page6 > .row > div > figure > div {
+  position: absolute;
+  top: 350px;
+  left: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.7s;
+}
+.page6 > .row > div > figure > div > .row {
+  width: 100%;
+  justify-content: center;
+}
+.page6 > .row > div > figure > div > .row > li > i {
+  padding: 10px 10px;
+  background-color: white;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.page6 > .row > div > figure > div > .row > li > i:hover {
+  background-color: #facc33;
+  color: black;
+}
+.page6 > .row > div > figure > figcaption {
+  width: 100%;
+}
+.page6 > .row > div > figure > figcaption > h2 {
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.page6 > .row > div > figure > figcaption > span {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  color: #facc33;
+  font-size: 18px;
+}
+.page6 .icon {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: auto;
+}
+.page6 .icon > .row {
+  position: relative;
+}
+.page6 .icon > .row > li {
+  margin: 0 5px;
+}
+.page6 .icon > .row > li::after {
+  content: "";
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 25px;
+  left: 110px;
+  width: 90%;
+  height: 1px;
+  background-color: #918f8f;
+}
+.page6 .icon > .row > li::before {
+  content: "";
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 25px;
+  right: 110px;
+  width: 90%;
+  height: 1px;
+  background-color: #918f8f;
+}
+.page6 .icon > .row > li:nth-of-type(1) > i {
+  opacity: 0.5;
+}
+.page6 .icon > .row > li > i {
+  font-size: 40px;
+  color: #facc33;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.page6 .icon > .row > li > i:hover {
+  color: #918f8f;
+}
+
+.page7 {
+  min-height: 450px;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  padding: 50px 40px;
+}
+.page7 > .row {
+  justify-content: space-evenly;
+}
+.page7 > .row > div {
+  margin: 10px 0;
+  width: 600px;
+  height: 335px;
+  border: 1px solid #aca4a4;
+  position: relative;
+  overflow: hidden;
+}
+.page7 > .row > div:hover {
+  border: 1px solid #facc33;
+}
+.page7 > .row > div > figure:hover > img {
+  width: 102%;
+  height: 102%;
+}
+.page7 > .row > div > figure > img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.4s;
+}
+.page7 > .row > div > figure > div {
+  position: absolute;
+  top: 130px;
+  left: 0;
+  text-align: center;
+}
+.page7 > .row > div > figure > div > * {
+  text-transform: capitalize;
+}
+.page7 > .row > div > figure > div > h2 {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 35px;
+}
+.page7 > .row > div > figure > div > p {
+  color: white;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+.page7 > .row > div > figure > div > span {
+  padding: 15px 30px;
+  background-color: #facc33;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.page7 > .row > div > figure > div > span:hover {
+  background-color: white;
+}
+
+.page8 {
+  min-height: 200px;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+}
+.page8 > .row {
+  width: 100%;
+  justify-content: center;
+}
+.page8 > .row > div:first-of-type > * {
+  color: white;
+}
+.page8 > .row > div:first-of-type > h2 {
+  font-size: 50px;
+  text-transform: capitalize;
+}
+.page8 > .row > div:first-of-type > ul {
+  width: 100%;
+}
+.page8 > .row > div:first-of-type > ul > li {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  position: relative;
+}
+.page8 > .row > div:first-of-type > ul > li::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 140px;
+  background-color: #918f8f;
+  width: 15%;
+  height: 1px;
+  display: flex;
+}
+.page8 > .row > div:first-of-type > ul > li::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  right: 140px;
+  background-color: #918f8f;
+  width: 15%;
+  height: 1px;
+  display: flex;
+}
+.page8 > .row > div:first-of-type > ul > li > i {
+  font-size: 35px;
+  position: relative;
+}
+.page8 > .row > div:last-of-type {
+  width: 100%;
+}
+.page8 > .row > div:last-of-type > .row > nav {
+  margin-top: 20px;
+  width: 100%;
+}
+.page8 > .row > div:last-of-type > .row > nav > .row {
+  width: 100%;
+  justify-content: center;
+}
+.page8 > .row > div:last-of-type > .row > nav > .row > * {
+  color: #000000;
+  margin: 0 17px;
+}
+.page8 > .row > div:last-of-type > .row > nav > .row > li {
+  padding: 15px 40px;
+  display: flex;
+  border-radius: 10px 10px;
+  background-color: white;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.4s;
+  font-family: "Young Serif", serif;
+}
+.page8 > .row > div:last-of-type > .row > nav > .row > li:hover {
+  background-color: #facc33;
+  color: #000000;
+}
+.page8 > .row > div:last-of-type > .row > nav > .row > li:nth-of-type(1) {
+  background-color: #facc33;
+}
+
+.page9 {
+  min-height: 100vh;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  padding: 20px 0;
+}
+.page9 > .row {
+  width: 100%;
+  justify-content: space-evenly;
+}
+.page9 > .row > * {
+  border: 1px solid white;
+}
+.page9 > .row > div {
+  margin: 40px 0;
+  width: 300px;
+  height: 392px;
+}
+.page9 > .row > div > figure {
+  margin-top: 10px 0;
+  position: relative;
+}
+.page9 > .row > div > figure:hover > div {
+  top: 200px;
+  opacity: 1;
+  visibility: visible;
+}
+.page9 > .row > div > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.page9 > .row > div > figure > div {
+  position: absolute;
+  top: 250px;
+  left: 0;
+  display: flex;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+.page9 > .row > div > figure > div > ul {
+  cursor: pointer;
+}
+.page9 > .row > div > figure > div > ul > li {
+  margin: 8px 0;
+}
+.page9 > .row > div > figure > div > ul > li > i {
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.5411764706);
+  padding: 2px 2px;
+  transition: 0.4s;
+  border-radius: 2px;
+}
+.page9 > .row > div > figure > div > ul > li > i:hover {
+  background-color: #facc33;
+}
+.page9 > .row > div > figure > figcaption {
+  width: 100%;
+}
+.page9 > .row > div > figure > figcaption > * {
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+}
+.page9 > .row > div > figure > figcaption > h2 {
+  color: white;
+  font-size: 18px;
+}
+.page9 > .row > div > figure > figcaption > span {
+  color: #facc33;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.page10 {
+  background-image: url(../img/background.jpg);
+  min-height: 70vh;
+  width: 100%;
+  padding: 10px;
+}
+.page10 > .row {
+  justify-content: space-evenly;
+}
+.page10 > .row > figure {
+  width: 90%;
+  height: 300px;
+  border: 2px solid white;
+  position: relative;
+}
+.page10 > .row > figure > * {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.page10 > .row > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.page10 > .row > figure > div {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.page10 > .row > figure > div > * {
+  color: white;
+}
+.page10 > .row > figure > div > h2 {
+  font-size: 40px;
+}
+.page10 > .row > figure > div > h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.page10 > .row > figure > div > input {
+  margin-top: 20px;
+  padding: 10px 200px;
+  border: none;
+  text-align: start;
+  color: #000000;
+}
+.page10 > .row > figure > div > button {
+  color: #000000;
+  margin-top: 20px;
+  background-color: #facc33;
+  border: none;
+  padding: 0 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.page10 > .row > figure > div > button:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.footer {
+  width: 100%;
+  height: 73vh;
+  background-image: url(../img/footer-bg.jpg);
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 20px 40px;
+}
+.footer > .row > div {
+  width: 100%;
+}
+.footer > .row > div:first-of-type > .row > div:first-of-type {
+  width: 20%;
+}
+.footer > .row > div:first-of-type > .row > div:first-of-type > * {
+  padding: 20px 20px;
+}
+.footer > .row > div:first-of-type > .row > div:first-of-type > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 30px;
+}
+.footer > .row > div:first-of-type > .row > div:first-of-type > p {
+  color: white;
+  font-size: 14px;
+}
+.footer > .row > div:first-of-type > .row > div:last-of-type {
+  width: 80%;
+  padding: 50px;
+}
+.footer > .row > div:first-of-type > .row > div:last-of-type > .row > ul {
+  width: 30%;
+  margin-right: 20px;
+}
+.footer > .row > div:first-of-type > .row > div:last-of-type > .row > ul > div > img {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 20px;
+}
+.footer > .row > div:first-of-type > .row > div:last-of-type > .row > ul > div > p {
+  font-size: 16px;
+  color: white;
+}
+.footer > .row > div:first-of-type > .row > div:last-of-type > .row > ul > h2 {
+  color: white;
+}
+.footer > .row > div:first-of-type > .row > div:last-of-type > .row > ul > li {
+  cursor: pointer;
+}
+.footer > .row > div:first-of-type > .row > div:last-of-type > .row > ul > li > i {
+  line-height: 50px;
+  color: white;
+  font-size: 20px;
+  position: relative;
+}
+.footer > .row > div:first-of-type > .row > div:last-of-type > .row > ul > li > i:hover::after {
+  width: 100%;
+}
+.footer > .row > div:first-of-type > .row > div:last-of-type > .row > ul > li > i::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: #facc33;
+  display: flex;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  transition: 0.4s;
+}
+.footer > .row > div:last-of-type > .row > * {
+  padding: 35px 0;
+  border-top: 1px solid #505050;
+}
+.footer > .row > div:last-of-type > .row > div {
+  width: 80%;
+}
+.footer > .row > div:last-of-type > .row > div > p {
+  color: white;
+  font-size: 20px;
+  padding: 0 30px;
+}
+.footer > .row > div:last-of-type > .row > ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20%;
+}
+.footer > .row > div:last-of-type > .row > ul > li > a > i {
+  font-size: 20px;
+  color: white;
+  transition: 0.4s;
+}
+.footer > .row > div:last-of-type > .row > ul > li > a > i:hover {
+  color: #facc33;
+}/*# sourceMappingURL=sass2.css.map */
